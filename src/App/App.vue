@@ -1,11 +1,13 @@
 
 <script>
 import MasterBranch from '../components/MasterBranch'
+import FilterIcon from '../components/FilterIcon'
 
 export default {
   name: 'App',
   components: {
     MasterBranch,
+    FilterIcon
   }
 }
 </script>
@@ -14,6 +16,7 @@ export default {
 <template>
 
 <MasterBranch/>
+<FilterIcon/>
 
 </template>
 
